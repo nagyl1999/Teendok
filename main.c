@@ -41,7 +41,6 @@ int isValidTodo(char *task) {
 
 /** Sor fájlba írása */
 void writeToFile(FILE *file, char *time, char *task) {
-	printf("%s - %s\n", time, task);
 	fprintf(file, "%s - %s\n", time, task);
 }
 
